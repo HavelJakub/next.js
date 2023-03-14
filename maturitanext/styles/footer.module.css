@@ -1,0 +1,25 @@
+/*-------------------------footer------------------------- */
+
+footer{
+    margin-top: 10px;
+    padding-bottom: 10px;
+    background-color: black;
+}
+
+.h3-footer{
+    margin-top: 10px;
+}
+
+.footer-back{
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    text-decoration: none;
+    font-size: large;
+    font-style: normal;
+    color: white;
+}
+
+/*-------------------------footer------------------------- */
