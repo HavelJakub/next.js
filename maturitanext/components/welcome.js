@@ -1,6 +1,6 @@
 import styles from './welcomen.module.css';
 
-const MainComponent = () => {
+const Welcome = () => {
   return (
     <main className={styles.main}>
       <div className={styles.content}>
@@ -17,4 +17,4 @@ const MainComponent = () => {
   );
 };
 
-export default MainComponent;
+export default Welcome;
