@@ -1,0 +1,69 @@
+.main{
+    width: 100%;
+    height: 80vh;
+    background-image: url("main.png");
+    background-repeat: no-repeat;
+    background-size: cover;background-position: center;
+}
+
+body {
+    background-color: #ecf0f1;
+}
+.content{
+    width: 50%;
+    position: absolute;
+    top: 60%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: white;
+    background-color: black;
+    justify-content: center;
+
+}
+
+.content{
+    margin-left: 25%;
+    border-radius: 10px;
+    opacity: 80%;
+}
+
+
+.content h1{
+    font-size: 80px;
+    margin-top: 5%;
+}
+
+.content p{
+    font-size: large;
+    margin: 20px auto;
+    font-weight: 100;
+    line-height: 25px;
+}
+
+.buttonz{
+   display: inline-flex;
+   text-align: center;
+   justify-content: center;
+   width: 20%;
+   padding: 15px 0;
+   margin: 20px 10px;
+   border-radius: 25px;
+   border: 2px solid white;
+   background-color: white;
+   cursor: pointer;
+}
+
+.buttonz a{
+text-decoration: none;
+color: black;
+
+}
+
+.buttonz a:hover{
+    color: white;
+}
+
+.buttonz:hover{
+    color: white;
+    background-color: black;
+}
