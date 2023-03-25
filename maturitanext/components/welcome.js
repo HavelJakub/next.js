@@ -1,4 +1,4 @@
-import styles from './welcomen.module.css';
+import styles from '../styles/welcomen.module.css';
 
 const Welcome = () => {
   return (

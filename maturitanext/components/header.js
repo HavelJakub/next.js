@@ -1,5 +1,5 @@
-
-import styles from "..styles/Header.module.css";
+import styles from "../styles/Header.module.css";
+import Image from "next/image";
 
 const Header = () => {
   return (
@@ -8,7 +8,8 @@ const Header = () => {
         <div className={`${styles["navbar-fill"]}`}>
           <div className={`${styles["navbar-logo"]}`}>
             <div className={`${styles["header-logo-link"]}`}>
-              <img src="ssslogo.PNG" alt="logo" />
+              <img src=
+              "/image/sssslogo.PNG" alt="logo" />
             </div>
           </div>
           <nav className={`${styles["hidden-nav"]}`}>
