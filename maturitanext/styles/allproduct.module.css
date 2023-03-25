@@ -1,0 +1,100 @@
+.h2{
+    text-align: center;
+    font-size: 4rem;
+    padding-top: 2.5%;
+    color: black;
+    padding-bottom: 0.5%;
+      
+}
+
+.hr-nadpis{
+    width: 20%;
+    margin-left: 40%;
+    margin-bottom: 1%;
+
+}
+
+.hr-description{
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 2%;
+}
+
+.hr-spodek{
+    width: 80%;
+    margin-left: 10%;
+    margin-bottom: 4%;
+}
+
+.shoe-category-description h3{
+    text-align: center;
+    font-size: 1.5rem;
+    width: 80%;
+    margin-left: 10%;
+}
+
+.all-product-box {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0;
+    column-gap: 5%;
+    
+}  
+
+.product{
+	width: 15%;
+    height: 15%;
+    margin: 15px;
+    box-sizing: border-box;
+    float: left;
+    text-align: center;
+    border-radius: 20px;
+    cursor: pointer;
+    padding-top: 10px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    transition: .4s;
+}
+
+.product .product-title, .product .product-price{
+	font-size: 18px;
+}
+
+.product-price{
+    padding-top: 5px;
+}
+
+.product:hover img{
+	scale:  1.1;
+}
+
+.product:hover {
+	box-shadow: 5px 15px 25px #eeeeee;
+}
+
+.product img {
+	width: 80%;
+	margin: 1rem;
+	transition: all 0.3s;
+}
+
+.product a:link, .product a:visited{
+	color: #ececec;
+	display: inline-block;
+	text-decoration: none;
+	background-color: black;
+	padding: 1.2rem 3rem;
+	border-radius: 1rem;
+	margin-top: 1rem;
+	font-size: 14px;
+    margin-bottom: 20px;
+	transition: all 0.2s;
+    border: solid;
+    border: 1px;
+}
+
+.product a:hover{
+	transform: scale(1.1);
+}
