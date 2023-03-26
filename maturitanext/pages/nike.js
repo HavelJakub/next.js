@@ -5,7 +5,7 @@ export default function Nike (){
     return (
         <Layout>
             <div className={`${styles["shoe-category"]}`}> 
-                <h2 className={`${styles["h2-name"]}`}>Air Jordan</h2> 
+                <h2 className={`${styles["h2-name"]}`}>nike</h2> 
                 <hr className={`${styles["hr-nadpis"]}`} /> 
                 <div className={`${styles["shoe-category-description"]}`}> 
                 <h3>
