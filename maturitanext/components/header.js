@@ -8,8 +8,9 @@ const Header = () => {
         <div className={`${styles["navbar-fill"]}`}>
           <div className={`${styles["navbar-logo"]}`}>
             <div className={`${styles["header-logo-link"]}`}>
-              <img src=
+              <Link href="index.js"> <img src=
               "/image/sssslogo.PNG" alt="logo" />
+              </Link>
             </div>
           </div>
           <nav className={`${styles["hidden-nav"]}`}>
