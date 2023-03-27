@@ -15,16 +15,24 @@ const Header = () => {
           <nav className={`${styles["hidden-nav"]}`}>
             <ul>
               <li>
-                <a href="#">Air Jordan</a>
+                <Link href="../pages/air_jordan.js">
+                <a>Air Jordan</a>
+                </Link>
               </li>
               <li>
-                <a href="#">Yeezy</a>
+              <Link href="../pages/yeezy.js">
+                <a>Yeezy</a>
+                </Link>
               </li>
               <li>
-                <a href="#">Nike</a>
+              <Link href="../pages/nike.js">
+                <a>Nike</a>
+                </Link>
               </li>
               <li>
+              <Link href="../pages/other.js">
                 <a href="#">Ostatní</a>
+                </Link>
               </li>
             </ul>
           </nav>
