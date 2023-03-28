@@ -1,5 +1,6 @@
 import AllProducts from "../components/all-product-box";
 import Layout from "../components/Layout";
+import styles from "../styles/allproduct.module.css";
 
 export default function Jordan (){
     return (

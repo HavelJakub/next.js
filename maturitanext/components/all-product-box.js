@@ -1,5 +1,6 @@
 
-import styles from "../styles/allproducts.css";
+import styles from "../styles/allproduct.module.css";
+
 
 const AllProducts = () => {
     return ( 

@@ -1,5 +1,6 @@
 import styles from "../styles/Header.module.css";
 import Image from "next/image";
+import Link from "next/link";
 
 const Header = () => {
   return (
@@ -8,7 +9,7 @@ const Header = () => {
         <div className={`${styles["navbar-fill"]}`}>
           <div className={`${styles["navbar-logo"]}`}>
             <div className={`${styles["header-logo-link"]}`}>
-              <Link href="index.js"> <img src=
+              <Link href="/"> <img src=
               "/image/sssslogo.PNG" alt="logo" />
               </Link>
             </div>
@@ -16,23 +17,23 @@ const Header = () => {
           <nav className={`${styles["hidden-nav"]}`}>
             <ul>
               <li>
-                <Link href="../pages/air_jordan.js">
-                <a>Air Jordan</a>
+                <Link href="/air_jordan" legacyBehavior>
+                Air Jordan
                 </Link>
               </li>
               <li>
-              <Link href="../pages/yeezy.js">
-                <a>Yeezy</a>
+              <Link href="/yeezy" legacyBehavior>
+                Yeezy
                 </Link>
               </li>
               <li>
-              <Link href="../pages/nike.js">
-                <a>Nike</a>
+              <Link href="/nike" legacyBehavior>
+                Nike
                 </Link>
               </li>
               <li>
-              <Link href="../pages/other.js">
-                <a href="#">Ostatní</a>
+              <Link href="/other" legacyBehavior>
+                Ostatní
                 </Link>
               </li>
             </ul>
