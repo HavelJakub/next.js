@@ -22,7 +22,12 @@ export default function Jordan (){
                 <hr className={`${styles["hr-description"]}`} /> 
             </div>
             <AllProducts />
-
+            <style jsx global>{`
+            body {
+                margin: 0;
+                padding: 0;
+            }
+          `}</style>
         </Layout>
     )
 }

@@ -13,7 +13,8 @@ export default function Home() {
       <SwiperProducts />
       <style jsx global>{`
       body {
-        margin:0;
+        margin: 0;
+        padding: 0;
       }
     `}</style>
 

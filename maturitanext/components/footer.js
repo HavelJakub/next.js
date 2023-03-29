@@ -1,4 +1,5 @@
 
+import Link from 'next/link';
 import styles from '../styles/footer.module.css';
 
 
@@ -9,7 +10,7 @@ const Footer = () => {
         <div className={styles.leva}>
           <h3 className={styles['h3-footer']}>O mně</h3>
           <ul>
-            <li></li>
+            <li><Link href="">login</Link></li>
             <li></li>
             <li></li>
           </ul>
