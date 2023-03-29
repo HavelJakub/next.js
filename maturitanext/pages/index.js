@@ -11,6 +11,11 @@ export default function Home() {
       <Welcome />
       <h2>Nejnovější produkty</h2>
       <SwiperProducts />
+      <style jsx global>{`
+      body {
+        margin:0;
+      }
+    `}</style>
 
       
 
