@@ -2,6 +2,7 @@ import React from 'react';
 import styles from '../styles/login.module.css';
 import Link from 'next/link';
 import Nextauth from './api/auth/[...nextauth]';
+import { signIn } from "next-auth/react";
 
 export default function Login ()  {
   return (
