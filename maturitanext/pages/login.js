@@ -3,6 +3,7 @@ import styles from '../styles/login.module.css';
 import Link from 'next/link';
 import Nextauth from './api/auth/[...nextauth]';
 import { signIn } from "next-auth/react";
+import { PrismaAdapter } from "@next-auth/prisma-adapter";
 
 export default function Login ()  {
   return (
@@ -26,8 +27,7 @@ export default function Login ()  {
                           <input type="text" id="username" name="username" /> <br />
                           <label htmlFor="password">Heslo: </label> <br />
                           <input type="password" name="password" id="password" /> <br />
-                          <button onClick={() =>{
-                            signIn()}}>Přihlásit se</button>
+                          <button           >Přihlásit se</button>
                       </div>
                   </form>
               </div>
