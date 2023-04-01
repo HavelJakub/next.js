@@ -1,9 +1,6 @@
 import React from 'react';
 import styles from '../styles/login.module.css';
 import Link from 'next/link';
-import Nextauth from './api/auth/[...nextauth]';
-import { signIn } from "next-auth/react";
-import { PrismaAdapter } from "@next-auth/prisma-adapter";
 
 export default function Login ()  {
   return (

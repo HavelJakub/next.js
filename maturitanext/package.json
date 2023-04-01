@@ -1,9 +1,13 @@
 {
+  "name": "shoestepstore",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "lint": "next lint",
+    "vercel-build": "prisma generate && next build",
+    "prisma:generate": "prisma generate"
   },
   "dependencies": {
     "@prisma/client": "^4.11.0",
@@ -14,6 +18,9 @@
     "swiper": "^9.1.1"
   },
   "devDependencies": {
-    "prisma": "^4.11.0"
+    "@types/node": "18.15.11",
+    "@types/react": "18.0.31",
+    "prisma": "^4.11.0",
+    "typescript": "5.0.3"
   }
 }
