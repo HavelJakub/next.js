@@ -13,10 +13,6 @@ SwiperCore.use([Navigation]);
 const SwiperProducts = () => {
   return (
     <div className={styles['h2-nej']}> Nejnovější
-      
-
-    
-    
     <div className={styles["hot-product"]}>
       <Swiper
         slidesPerView={4}

@@ -1,6 +1,7 @@
 import React from 'react';
 import styles from '../styles/login.module.css';
 import Link from 'next/link';
+import signIn from "next-auth";
 
 export default function Login ()  {
   return (
@@ -25,7 +26,8 @@ export default function Login ()  {
                           <input type="text" id="username" name="username" /> <br />
                           <label htmlFor="password">Heslo: </label> <br />
                           <input type="password" name="password" id="password" /> <br />
-                          <button>Přihlásit se</button>
+                          <button onClick={() =>{
+                            signIn()}}>Přihlásit se</button>
                       </div>
                   </form>
               </div>
