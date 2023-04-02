@@ -4,7 +4,8 @@ import Link from 'next/link';
 
 export default function Login ()  {
   return (
-    <><header>
+    <div>
+    <header>
           <div className={styles.banner}>
               <div className={`${styles["navbar-fill"]}`}>
                   <div className={`${styles["navbar-logo"]}`}>
@@ -24,18 +25,19 @@ export default function Login ()  {
                           <input type="text" id="username" name="username" /> <br />
                           <label htmlFor="password">Heslo: </label> <br />
                           <input type="password" name="password" id="password" /> <br />
-                          <button           >Přihlásit se</button>
+                          <button>Přihlásit se</button>
                       </div>
                   </form>
               </div>
           </main>
+          
           <style jsx global>{`
       body {
         margin: 0;
         padding: 0;
       }
     `}</style>
-          </>
+          </div>
           
   );
 };

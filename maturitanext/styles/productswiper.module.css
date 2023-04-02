@@ -1,16 +1,15 @@
+
 .hot-product{
     background-color: #ecf0f1;
     
 }
 
-.h2{
-    text-align: center;
-    margin-bottom: 5rem;
-    font-size: 4rem;
-    padding-top: 2.5%;
-    background-color: black;
+.h2-nej{
     color: white;
-    padding-bottom: 2.5%;    
+    background-color: black;
+    text-align: center;
+    font-size: xx-large; 
+    padding-top: 2%;   
 }
 
 .hr{
@@ -30,9 +29,12 @@
     justify-content: center;
     align-items: center;
     margin: 50px 0;
+    padding-top: 2%;
 }  
 
-
+.product-title, .product-price{
+    color: black;
+}
 .product{
 	width: 15%;
     height: 15%;
@@ -45,6 +47,7 @@
     padding-top: 10px;
     box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
     transition: .4s;
+    background-color: #ecf0f1;
 }
 
 .product .product-title, .product .product-price{
@@ -87,3 +90,5 @@
 .product a:hover{
 	transform: scale(1.1);
 }
+
+

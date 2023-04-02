@@ -9,12 +9,14 @@ export default function Home() {
   return (
     <Layout>
       <Welcome />
-      <h2>Nejnovější produkty</h2>
+      
       <SwiperProducts />
       <style jsx global>{`
+      
       body {
         margin: 0;
         padding: 0;
+        background-color:#ecf0f1;
       }
     `}</style>
 

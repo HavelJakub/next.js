@@ -1,9 +1,9 @@
-.h2{
+.h2-name{
     text-align: center;
     font-size: 4rem;
-    padding-top: 2.5%;
+    padding-top: 1%;
     color: black;
-    padding-bottom: 0.5%;
+    
       
 }
 
@@ -11,13 +11,14 @@
     width: 20%;
     margin-left: 40%;
     margin-bottom: 1%;
-
+    
 }
 
 .hr-description{
     width: 80%;
     margin-left: 10%;
     margin-top: 2%;
+    text-decoration: none;
 }
 
 .hr-spodek{
@@ -31,6 +32,7 @@
     font-size: 1.5rem;
     width: 80%;
     margin-left: 10%;
+    text-decoration: none;
 }
 
 .all-product-box {

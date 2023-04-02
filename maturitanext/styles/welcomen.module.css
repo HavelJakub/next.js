@@ -34,10 +34,10 @@
 }
 
 .content p{
-    font-size: large;
+    font-size: 25px;
     margin: 20px auto;
     font-weight: 100;
-    line-height: 25px;
+    line-height: 20px;
 }
 
 .buttonz{
