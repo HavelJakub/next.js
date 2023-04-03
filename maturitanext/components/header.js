@@ -1,6 +1,17 @@
 import styles from "../styles/Header.module.css";
-import Image from "next/image";
+
 import Link from "next/link";
+
+import Image from "next/image"
+
+const Logo = () => {
+    <Image src="../images/sssslogo.PNG"
+    height={596}
+    width={886}
+    alt="logo"
+     />
+  };
+  
 
 const Header = () => {
   return (
@@ -9,8 +20,8 @@ const Header = () => {
         <div className={`${styles["navbar-fill"]}`}>
           <div className={`${styles["navbar-logo"]}`}>
             <div className={`${styles["header-logo-link"]}`}>
-              <Link href="/"> <img src=
-              "/image/sssslogo.PNG" alt="logo" />
+              <Link href="/">
+                 <Logo></Logo>
               </Link>
             </div>
           </div>

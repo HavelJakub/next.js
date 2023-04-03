@@ -1,9 +1,9 @@
-import Head from 'next/head';
 import Welcome from '../components/welcome';
 import Layout from '../components/Layout';
-import styles from '../styles/Home.module.css';
 import SwiperProducts from '../components/product-swiper';
 import React from 'react';
+import Image from 'next/image';
+
 
 export default function Home() {
   return (
