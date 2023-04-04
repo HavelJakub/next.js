@@ -4,6 +4,13 @@ import Link from 'next/link';
 import signIn from "next-auth";
 
 export default function Login ()  {
+    async function handleSignIn(e) {
+        e.preventDefault();
+        const username = e.target.username.value;
+        const password = e.target.password.value;
+        
+        signIn("credentials", { username: username, password: password, callbackUrl: "/app" });
+      }
   return (
     <div>
     <header>
@@ -20,7 +27,7 @@ export default function Login ()  {
       </header>
       <main>
               <div className={styles['form-box']}>
-                  <form action="#" method="post" className={styles.form}>
+                  <form className={styles.form}>
                       <div className={styles.login}>
                           <label htmlFor="username">Uživatelské jméno: </label> <br />
                           <input type="text" id="username" name="username" /> <br />
