@@ -18,10 +18,10 @@ const Footer = () => {
         <div className={styles.prava}>
           <h3 className={styles['h3-footer']}>Kontakty</h3>
           <ul>
-            <li><a href="x">Instagram</a></li>
-            <li>Facebook</li>
-            <li>TikTok</li>
-            <li>E-mail</li>
+            <li><a href="https://www.instagram.com/michal_borecky/">Instagram</a></li>
+            <li><a href="https://www.facebook.com/profile.php?id=100011700870552">Facebook</a></li>
+            <li><a href="x">TikTok</a></li>
+            <li><a href="x">E-mail</a></li>
           </ul>
         </div>
       </div>
