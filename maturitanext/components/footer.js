@@ -10,7 +10,7 @@ const Footer = () => {
         <div className={styles.leva}>
           <h3 className={styles['h3-footer']}>O mně</h3>
           <ul>
-            <li><Link href="/login">login</Link></li>
+            <li><Link href="https://havel.workspace-sosceskybrod.cz/shoestepstore/admin/index.php">login</Link></li>
             <li></li>
             <li></li>
           </ul>
