@@ -10,7 +10,7 @@ export default function Jordan (){
                 <hr className={`${styles["hr-nadpis"]}`} /> 
                 <div className={`${styles["shoe-category-description"]}`}> 
                 <h3>
-                    Airaa Jordan jsou sportovní boty vyráběné firmou Nike inspirované
+                    Air Jordan jsou sportovní boty vyráběné firmou Nike inspirované
                     basketbalistou Michaelem Jordanem. Jsou známé pro svou inovativní
                     technologii a vynikající pohodlí a jsou oblíbené mezi sportovci i
                     lidmi, kteří hledají stylové boty. Jsou také populární mezi sběrateli
