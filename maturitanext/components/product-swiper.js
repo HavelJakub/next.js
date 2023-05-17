@@ -8,6 +8,7 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
 
+
 SwiperCore.use([Navigation]);
 
 const SwiperProducts = () => {
@@ -22,7 +23,7 @@ const SwiperProducts = () => {
       >
         <SwiperSlide>
           <div className={styles.product}>
-            <img src="./images/jordan.png" alt="Product image" />
+          <img src="jordan.png" alt="Product image" />
             <div className={styles["product-info"]}>
               <h4 className={styles["product-title"]}>Air Jordan 1 Mid</h4>
               <p className={styles["product-price"]}>130€</p>
@@ -34,7 +35,7 @@ const SwiperProducts = () => {
         </SwiperSlide>
         <SwiperSlide>
           <div className={styles.product}>
-            <img src="jordan.png" alt="Product image" />
+          <img src="jordan.png" alt="Product image" />
             <div className={styles["product-info"]}>
               <h4 className={styles["product-title"]}>Air Jordan 1 Mid</h4>
               <p className={styles["product-price"]}>130€</p>
