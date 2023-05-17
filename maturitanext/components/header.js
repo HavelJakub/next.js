@@ -12,7 +12,7 @@ const Header = () => {
       <div className={styles.banner}>
         <div className={`${styles["navbar-fill"]}`}>
           <div className={`${styles["navbar-logo"]}`}>
-          <Image width="248" height="167" alt="" src="/ssslogo.PNG"/>
+          <Image width="248" height="167" alt="" src="/ssslogo.png"/>
             <div className={`${styles["header-logo-link"]}`}>
               <Link href="/">
               
